@@ -1,0 +1,13 @@
+summary(iris)
+sd(iris$V1)
+sd(iris$V2)
+sd(iris$V3)
+sd(iris$V4)
+nrow(iris)
+ncol(iris)
+hist(iris$V1 ,col = "Blue",xlab = "Sepal Length",main = "Sepal length frequency distribution")
+hist(iris$V2 ,col = "Blue",xlab = "Sepal Width",main = "Sepal width frequency distribution")
+hist(iris$V1 ,col = "Blue",xlab = "Petal Length",main = "Petal length frequency distribution")
+hist(iris$V1 ,col = "Blue",xlab = "Petal width",main = "Petal width frequency distribution")
+boxplot(iris)
+boxplot(iris$V2,plot=FALSE)$out
